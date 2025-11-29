@@ -1,0 +1,9 @@
+The solution for the problem involves matching every character of needle to that in haystack.
+we find length of both strings, n and m resp
+then we start a for loop on with boundry condition of equal to n-m
+we keep a int initiated at zero at start of every loop 
+in second loop we have two conditions to test to keep loop going
+first condition is - j is less then length of needle 
+second condition is - we test every char of haystack at i+j with needle at j, 
+if both are true, we increase j by one and so on till it can be done
+at end if j is equal to lenght of needle, then index is set to i and we break loop 
